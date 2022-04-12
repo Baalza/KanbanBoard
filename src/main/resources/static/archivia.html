@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html xmlns:th="http://www.thymeleaf.org/" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+			
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<link rel="shortcut icon" type="image/x-icon" href="../image/kbicon.png" />
+        <title> Kanban Board</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        
+        <link rel="stylesheet"  href="css/style.css" rel="stylesheet" type="text/css">
+		<script src="https://kit.fontawesome.com/29cda76be8.js" crossorigin="anonymous"></script>
+    </head>
+	
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="http://localhost:8080/">
+				<img src="image/kbicon.png" width="30" height="30" class="d-inline-block align-top" alt="">
+				Kanban Board
+			  </a>
+            <button id="toggler-button" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item ">
+                  <a class="nav-link" href="http://localhost:8080/">Home </a>
+                </li>
+				<li class="nav-item ">
+					<a class="nav-link" href="">Archivio </a>
+				  </li>
+               
+			
+			
+				
+              </ul>
+            </div>
+		
+          </nav>
+
+
+
+
+
+<!-- Lists container -->
+<section class="lists-container">
+	
+	
+	<div id="cf" class="container-fluid">
+	</div>
+</section>
+
+<!-- End of lists container -->
+          
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		<script src="js/scriptArchivia.js" crossorigin="anonymous" defer></script>
+    </body>
+</html>

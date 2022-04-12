@@ -1,0 +1,130 @@
+.container-fluid{
+    display: grid;
+    grid-auto-columns: 310px;
+    grid-auto-flow: column;
+    grid-gap: 8px;
+    margin-top: 30px;;
+    overflow-x: auto;
+    
+ 
+    
+}
+
+.card-body>a.nav-link{
+    color: rgb(255 51 51);
+}
+ a>i.fa-times{
+    
+    color: rgb(255 51 51);
+}
+
+textarea{
+    background-image: initial;
+    box-shadow: none;
+    resize: none;
+    background: transparent;
+    border-radius: 3px;
+    box-shadow: none;
+    font-weight: 600;
+    border-color: transparent;
+    height: 30px;
+    resize: none;
+    max-height: 286px;
+    
+}
+
+button{
+    margin-left: 20px;
+}
+  
+  .board-list {
+    background-color: rgb(235, 236, 240);
+    border-radius: 3px;
+    display: grid;
+    grid-auto-rows: max-content;
+    grid-gap: 10px;
+    height: max-content;
+    padding: 10px;
+  }
+ 
+  .container{
+    padding-left: 0 !important;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+   
+  }
+  .bg-light {
+   
+    width: 100% !important;
+    position: relative !important;
+}
+.list-title.collapse{
+    display: inline-flex;
+}
+ul.navbar-nav.col-menu{
+    padding-left: 80px ;
+}
+ul.col-menu>li>a.dropdown-toggle::after {
+    border-top: .0em solid !important;
+    
+}
+a>i{
+    margin-top: 20px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(51, 162, 255) !important;
+}
+div.board-list>div.container{
+display: grid !important;
+}
+
+ul.col-menu>li>div.show{
+    margin-top: -18px;
+}
+.box {
+    border: 3px solid #666;
+    border-radius: .5em;
+    padding: 10px;
+    cursor: move;
+    margin-top: 10px;
+  }
+  .box.over {
+    border: 3px dotted #666;
+  }
+
+  .list-group-item-danger {         
+       margin-top: 5px !important; 
+    }
+
+  .card-body>textarea{
+      width: 222px;
+      height: 105px;
+  }
+
+  .hidden{
+     display : none;
+  }
+
+  .organizzativo{
+    border-color: rgb(255 161 0) !important;
+  }
+  .informativo{
+    border-color: rgb(73 255 0) !important;
+  }
+  input{
+      width: 250px;
+  }
+  div.card.box>ul.navbar-nav.col-menu{   
+    margin-left: 40px !important;    
+  }
+  .cols{   
+    margin-top: 20px; margin-right: 70px; 
+  }
+ 
+  input[type=file]{ 
+    color:transparent;
+}
+
+.loaded{
+  margin-top: 5px !important;
+}
